@@ -1,8 +1,8 @@
-package com.lucidplugins.exampleplugin;
+package com.njaplugins.exampleplugin;
 
 import net.runelite.client.config.*;
 
-@ConfigGroup("lucid-example")
+@ConfigGroup("nja-example")
 public interface LucidExampleConfig extends Config
 {
     @ConfigSection(

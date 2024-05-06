@@ -1,4 +1,4 @@
-package com.lucidplugins.exampleplugin;
+package com.njaplugins.exampleplugin;
 
 import com.google.inject.Provides;
 import net.runelite.api.*;
@@ -17,21 +17,21 @@ import java.util.logging.Logger;
         enabledByDefault = false,
         tags = {"example"}
 )
-public class LucidExamplePlugin extends Plugin
+public class njaExamplePlugin extends Plugin
 {
 
     @Inject
     private Client client;
 
     @Inject
-    private LucidExampleConfig config;
+    private njaExampleConfig config;
 
     private Logger log = Logger.getLogger(getName());
 
     @Provides
-    LucidExampleConfig getConfig(final ConfigManager configManager)
+    njaExampleConfig getConfig(final ConfigManager configManager)
     {
-        return configManager.getConfig(LucidExampleConfig.class);
+        return configManager.getConfig(njaExampleConfig.class);
     }
 
     @Override
