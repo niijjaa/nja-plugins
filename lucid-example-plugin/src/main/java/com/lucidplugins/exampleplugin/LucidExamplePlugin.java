@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 @Extension
 @PluginDescriptor(
-        name = "Lucid Example",
+        name = "nja Example",
         description = "An example plugin that can be copied to use as a plugin skeleton. Does nothing functionally.",
         enabledByDefault = false,
         tags = {"example"}
